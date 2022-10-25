@@ -5,11 +5,12 @@ import throttle from "lodash/throttle";
 import Pagination from "rc-pagination";
 import "rc-pagination/assets/index.css";
 import "./Table.css";
-// import dotenv from "dotenv";
-// dotenv.config();
 
 import io from 'socket.io-client';
-const s_url = process.env.SS_URL || "http://localhost:5000";
+// const s_url = process.env.SS_URL || "http://localhost:5000";
+const s_url = "https://react-socket-table-server.onrender.com/";
+// const s_url = "http://localhost:5000";
+
 const socket = io(s_url);
 
 const tableHead = {
