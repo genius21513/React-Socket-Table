@@ -63,8 +63,8 @@ if (process.env.NODE_ENV === "production") {
 }
 // ====================  Deployment ========================= //
 
-console.log(process.env.NODE_ENV);
-console.log(process.env.PORT);
+// console.log(process.env.NODE_ENV);
+// console.log(process.env.PORT);
 
 const port = process.env.PORT || 5000;
 server.listen(port, () => {
