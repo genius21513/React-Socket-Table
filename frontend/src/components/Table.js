@@ -6,12 +6,12 @@ import Pagination from "rc-pagination";
 import "rc-pagination/assets/index.css";
 import "./Table.css";
 
+
 import io from 'socket.io-client';
-const s_url = process.env.SS_URL || "http://localhost:5000";
+const s_url = process.env.REACT_APP_SS_URL || "http://localhost:5000";
 // const s_url = "https://react-socket-table-server.onrender.com/";
 // const s_url = "http://localhost:5000";
 // const s_url = "https://react-socket-table.herokuapp.com";
-
 const socket = io(s_url);
 
 const tableHead = {
