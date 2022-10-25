@@ -12,6 +12,8 @@ import io from 'socket.io-client';
 // const s_url = "http://localhost:5000";
 const s_url = "https://react-socket-table.herokuapp.com:5000/";
 
+console.log(s_url);
+
 const socket = io(s_url);
 
 const tableHead = {
