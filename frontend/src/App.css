@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  position: relative;
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  color: #14877c;
+}
+
+.heading {
+  color: #14877c;
+  border-bottom: 1px solid #14877c;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
